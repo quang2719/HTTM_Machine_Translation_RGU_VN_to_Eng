@@ -2,3 +2,6 @@
 * BTL Phát triển Hệ thông thông minh 
 * Dịch máy 
 * Việt Nam - English
+* 50 epoch
+* 20-30 phút / epoch
+
