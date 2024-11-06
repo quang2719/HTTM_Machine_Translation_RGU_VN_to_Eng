@@ -13,28 +13,31 @@ This project aims to create an accurate Vietnamese-to-English translation system
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-FFD21E?style=for-the-badge)](https://huggingface.co/datasets/ncduy/mt-en-vi)
 
 ## 🗃️ Dataset
+[![Dataset](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/train-test-size.png?raw=true)](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/train-test-size.png?raw=true)
 
-Our dataset comprises parallel Vietnamese-English sentence pairs from Hugging Face, containing [Number] samples for training and evaluation.
+* Our dataset comprises parallel Vietnamese-English sentence pairs from Hugging Face, containing samples for training and evaluation.
+
+
 
 ### 📝 Sample Data
 
-![Sample Data 1][sample1-link]
-![Sample Data 2][sample2-link]
+* Training sample:<br> [![image](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/training_set.png?raw=true)](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/training_set.png?raw=true)
+* Test sample:<br> [![image](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/test_set.png?raw=true)](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/test_set.png?raw=true)
 
 ## 📊 Exploratory Data Analysis (EDA)
 
 ### Data Analysis Focus
 - Word frequency distribution
-- Sentence length patterns
-- Vietnamese-English structural comparison
+<br> ![anh](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/eng-frequence-bar-chart.png?raw=true)
+<br> ![anh](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/nv-frequence-bar-chart.png?raw=true)
 
 ### 📈 Visualizations
 
 #### Vietnamese Vocabulary Distribution
 ![Vietnamese Vocabulary][viet-viz-link]
-
+<br> ![anh](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/vn-wordcloud-visual.png?raw=true)
 #### English Vocabulary Distribution
-![English Vocabulary][eng-viz-link]
+<br> ![anh](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/english-wordcloud-visual.png?raw=true)
 
 ## 🏋️ Training Process
 
@@ -43,23 +46,12 @@ Our dataset comprises parallel Vietnamese-English sentence pairs from Hugging Fa
 - **Time per Epoch**: 20-30 minutes
 - **Objective**: Minimize translation error
 
-### 📉 Training Metrics
-
-#### Loss Curve
-![Loss Curve][loss-curve-link]
-
-#### Performance Metrics
-![Training Metrics][metrics-link]
-
 ## 🧪 Evaluation
 
 ### BLEU Score Analysis
-- **Score**: [INSERT_SCORE]
-- **Method**: Comparison with human translations
+![bleu](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/bleu-score.png)
 
 ## 💬 Demo Examples
 
-### Translation Sample 1
-```plaintext
-🇻🇳 Vietnamese: [Input sentence 1]
-🇬🇧 English: [Output sentence 1]
+### Translation Sample
+![demo](https://github.com/quang2719/Project---Machine_Translation_RGU_VN_to_Eng-PTHTTM/blob/main/demo%20image/demo.png)
